@@ -21,10 +21,9 @@ const AboutUs = ({ isModalOpen, openModal, closeModal }) => {
 
           <div className="aboutButtons">
             {/* <button className="readMore">Read More</button> */}
-            <button
-              className="joinNow"
+            <button className="joinNow"
               onClick={() => {
-                openModal();
+                window.open("https://chat.whatsapp.com/IIRGp3f7kdjDYn57HL6UU5", "_blank");
               }}
             >
               Join Now

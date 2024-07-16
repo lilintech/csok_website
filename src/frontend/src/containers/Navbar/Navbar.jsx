@@ -66,15 +66,13 @@ const Navbar = ({ openModal }) => {
       </div>
 
       <div className={`btn-wrapper ${isNavExpanded ? "active" : ""}`}>
-        <button
-          className="button"
-          onClick={() => {
-            openModal();
-            setIsNavExpanded(false);
-          }}
-        >
-          Join Now
-        </button>
+      <button className="joinNow"
+              onClick={() => {
+                window.open("https://chat.whatsapp.com/IIRGp3f7kdjDYn57HL6UU5", "_blank");
+              }}
+            >
+              Join Now
+            </button>
       </div>
 
       <div
